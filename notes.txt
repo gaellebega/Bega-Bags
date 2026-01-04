@@ -1,0 +1,1 @@
+in vanillla css we dont make the display hifdden we make the display none

@@ -218,3 +218,33 @@ align-items:center;
  #home,#about,#products,#testimonies {
   scroll-margin-top: 10vh;
 }
+.menu{
+  display:none;
+}
+.none{
+  display:none;
+}
+
+.burger{
+  display:block;
+  /* font-size:2em; */
+  color:var(--Beige);
+  cursor:pointer;
+  /* margin:0 auto; */
+}
+
+@media(min-width:640px){
+.burger{
+  display:block;
+}
+}
+@media(min-width:768px){
+.menu{
+  display:flex;
+}
+}
+@media(min-width:1024px){
+.burger{
+  display:none;
+}
+}
